@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints _putchar followed by a new line
+ * main - prints _putcher followed by a new line
  *
  * Return: Always 0
  */
@@ -19,4 +19,3 @@ int main(void)
 
 	return (0);
 }
-
