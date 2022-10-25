@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - finds and prints the largest prime
- *         factor of the number 612852475143
+ * main - prints the largest prime factor of the number 612852475143
  *
  * Return: Always 0
  */
@@ -15,7 +14,7 @@ int main(void)
 	{
 		if ((prime % 2) == 0)
 		{
-			prime /= 2;
+			(prime /= 2);
 			continue;
 		}
 
@@ -29,7 +28,4 @@ int main(void)
 	printf("%1d\n", prime);
 
 	return (0);
-}
-	
-
-				
+}				
